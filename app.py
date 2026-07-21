@@ -565,7 +565,7 @@ def render_prediction_tab(
                         proba_df,
                         x="Class",
                         y="Probability",
-                        color="Probability",,
+                        color="Probability",
                         color_continuous_scale="Viridis",
                     )
                     fig.update_layout(
